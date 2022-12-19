@@ -1,0 +1,161 @@
+/*# sourceMappingURL=style.css.map */
+/*Alejandro Pascual Moreno*/
+*{
+    font-family: 'Fredoka One';
+}
+
+body{
+    background: linear-gradient(120deg, rgb(204, 179, 39) 5%, rgb(44, 45, 46) 35%, rgb(221, 219, 215) 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+   background-color: gray;
+   width: auto;
+   padding: 1%;
+   margin: 0;
+   border-radius: 2px;
+   
+   
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+    width: auto;
+    padding: 1%;
+    padding-top: 1%;
+    
+}
+.cuerpada{
+    border: solid 2px;
+    border-radius: 2px;
+   
+}
+
+
+.tablada{
+    margin: auto;
+    background-color: white;
+    border-collapse: collapse !important;
+    border-style: solid 2px;
+    margin-bottom: 5%;
+    width: auto;
+   
+   
+}
+.tablada th, td {
+    border: 2px solid rgba(245, 181, 4, 0.705);
+    
+  }
+    
+  .tablada td, th {
+    padding: 10px;
+  }
+    
+  .tablada th {
+    background-color: rgb(235, 84, 14);
+  }
+
+  .tablita{
+    background-color: whitesmoke;
+    padding: 2%;
+    border-radius: 2px;
+   
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+ #myBtn{
+    background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  transform: translate(430%, 0%);
+  font-size: 16px;
+  border-radius: 15px;
+ }
+ #myBtn:hover{
+    background-color: #85c487;
+    cursor: pointer;
+ }
+
+ .botonada{
+    background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+
+  font-size: 16px;
+  border-radius: 15px;
+ }
+ .botonada:hover{
+    background-color: #85c487;
+    cursor: pointer;
+ }
+ .botonada2{
+    background-color: #f3fcf3; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+
+  font-size: 16px;
+  border-radius: 15px;
+ }
+ .botonada2:hover{
+    background-color: #444644;
+    cursor: pointer;
+ }
+
+ #actividad{
+    margin-bottom: 10px;
+ }

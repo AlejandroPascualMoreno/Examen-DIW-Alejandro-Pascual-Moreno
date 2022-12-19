@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); </style>
+    <!-- Completa tu nombre -->
+    <title>ALEJANDRO_PASCUAL_MORENO</title>
+
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+    <!-- Completar html aqui -->
+    
+    
+<div class="cuerpada">
+    <h1>Aplicación de dietas</h1>
+    <div class="tablita">
+     
+    <table class="tablada">
+      
+        <tr>
+            <th>Nombre</th>
+            <th>Sexo</th>
+            <th>Edad</th>
+            <th>Altura</th>
+            <th>Peso</th>
+            <th>Actividad</th>
+            <th>IM Basal</th>
+            <th>Calorías necesarias</th>
+        </tr>
+    <tr>
+        <td>Francisco Romero</td>
+        <td>Hombre</td>
+        <td>31</td>
+        <td>198</td>
+        <td>89</td>
+        <td>Moderada</td>
+        <td>1427 kCal</td>
+        <td>1712 kCal</td>
+    </tr>
+    <tr>
+        <td>Jose Antonio Lara</td>
+        <td>Hombre</td>
+        <td>46</td>
+        <td>187</td>
+        <td>85</td>
+        <td>Moderada</td>
+        <td>1333 kCal</td>
+        <td>1435 kCal</td>
+    </tr>
+    <tr>
+        <td>Jennifer Lopez</td>
+        <td>Mujer</td>
+        <td>45</td>
+        <td>167</td>
+        <td>56</td>
+        <td>Alta</td>
+        <td>1256 kCal</td>
+        <td>1943 kCal</td>
+    </tr>
+    <tr>
+        <td>Jennifer Lawrence</td>
+        <td>Mujer</td>
+        <td>35</td>
+        <td>177</td>
+        <td>60</td>
+        <td>Alta</td>
+        <td>1526 kCal</td>
+        <td>1493 kCal</td>
+    </tr>
+    <tr>
+        <td>Brad Pitt</td>
+        <td>Hombre</td>
+        <td>55</td>
+        <td>187</td>
+        <td>66</td>
+        <td>Alta</td>
+        <td>1976 kCal</td>
+        <td>2500 kCal</td>
+    </tr>
+    </table>
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Añadir cliente</button>
+        
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+        
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Nuevo cliente</h1>
+            <form class="formularito">
+                
+                <label>
+                    <p>Nombre:</p><input type="text" required> 
+                   </label>
+                <br>
+                
+               <label>
+               <p>Sexo:</p> <input type="radio" name="genero" value="Hombre" required>
+                Hombre
+              </label>
+            
+              <label>
+                <input type="radio" name="genero" value="Mujer" checked="checked" required>
+                Mujer
+              </label><br>
+              <label>
+                <p>Edad:</p><input type="text" required> 
+               </label>
+               <br>
+               <label>
+                <p>Altura(cm):</p><input type="text" required> 
+               </label>
+            <br>
+            <label>
+                <p>Peso(kg):</p><input type="text" required> 
+               </label>
+               <br>
+               <label>
+                <p>Actividad física:</p><select name="actividad" id="actividad" required>
+                    <option value="Suave o sedentaria">Suave o sedentaria</option>
+                    <option value="Moderada">Moderada</option>
+                    <option value="Alta">Alta</option>
+                </select>
+               </label>
+               <br>
+               <footer>
+                <input type="submit" value="Añadir nuevo" formmethod="get" class="botonada">
+                <button class="botonada2"><a href="index.html">Volver atrás</a></button>
+            </footer>
+               
+            </form>
+
+          </div>
+        </div>  
+</div>
+<footer>Alejandro Pascual Moreno</footer>
+</div>
+
+<script src="static/app.js"></script>
+</body>
+</html>
